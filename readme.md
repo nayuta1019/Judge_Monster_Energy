@@ -1,8 +1,11 @@
-# 開発環境
+## これは何?
+CNNでモンスターエナジーの画像を種類ごとに判別するプログラム.
+
+## 開発環境
 Python : 3.6.9  
 tensorflow : 2.4.1
 
-# Setup
+## Setup
 ```
 python -m venv hoge
 pip install --upgrade pip
