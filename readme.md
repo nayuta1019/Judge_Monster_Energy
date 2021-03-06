@@ -14,3 +14,7 @@ pip install Pillow
 pip install matplotlib
 pip install --upgrade scikit-learn
 ```
+
+[Webアプリにしました][1]
+
+[1]:https://judge-monster-energy-app.herokuapp.com/
