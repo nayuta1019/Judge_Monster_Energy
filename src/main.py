@@ -98,7 +98,7 @@ model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Dropout(0.5))
 
 model.add(Flatten())
-model.add(Dense(1024))
+model.add(Dense(128))
 model.add(Activation('relu'))
 model.add(Dropout(0.5))
 
@@ -112,7 +112,7 @@ model.summary()
 model.compile(optimizer=Adam(), loss='categorical_crossentropy',
               metrics=["accuracy"])
 
-history = model.fit(x_train, y_train, epochs=30,
+history = model.fit(x_train, y_train, epochs=20,
                     batch_size=32, validation_data=(x_test, y_test))
 
 
