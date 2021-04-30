@@ -44,9 +44,10 @@ for idx, cat in enumerate(categories):
 
         # 画像を保存する
         img.save(os.path.join(image_dir, basename + ext))
-
+        """
         new_img1.save(os.path.join(
             image_dir, basename + "_" + process1 + ext))
+        """
         new_img2.save(os.path.join(
             image_dir, basename + "_" + process2 + ext))
         new_img3.save(os.path.join(
